@@ -2,8 +2,6 @@
 
 #include "Event.h"
 
-#include <sstream>
-
 namespace GAMEENGINE
 {
 	class GE_API KeyEvent : public Event
