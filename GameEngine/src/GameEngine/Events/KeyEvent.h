@@ -2,7 +2,7 @@
 
 #include "Event.h"
 
-namespace GAMEENGINE
+namespace GameEngine
 {
 	class GE_API KeyEvent : public Event
 	{
