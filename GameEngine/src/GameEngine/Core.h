@@ -7,5 +7,7 @@
 		#define GE_API __declspec(dllimport)
 	#endif
 #else
-#error Game Engine only support wWindows!
+	#error Game Engine only support wWindows!
 #endif
+
+#define BIT(x) (1 << x)
